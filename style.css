@@ -1,0 +1,160 @@
+/*blue = #000C25*/
+/* black = #141414*/
+/* white = #E8E4E4*/
+
+body {
+color: #141414;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 10pt;
+margin-left: 0;
+margin-right: 0;
+margin-top: 5px;
+padding-left: 5px;
+padding-right: 5px
+background-color:#E8E4E4;
+}
+
+.logo {
+  float: left;
+}
+
+#navigation-container {
+  width: 100%;
+  margin-left: 0px;
+  top:0;
+  height: 70px;
+  opacity: 0.95;
+  position: fixed;
+}
+
+.navigation-bar {
+  background-color: #141414;
+  height: 70px;
+  width: 100%;
+  top:0;
+  opacity: 0.95;
+  position: fixed;
+}
+
+#navigation-container img {
+  float: left;
+  height: 70px;
+  width: 70px;
+  background-color: #000C25;
+}
+
+#navigation-container ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+}
+
+#navigation-container li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+#navigation-container li a {
+ 
+  color: #E8E4E4;
+  font-size: 16px;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+header{
+padding-left: 20px;
+padding-top: 90px;
+color: #000c25;
+padding-bottom: 50px;
+}
+
+.thread{
+margin-left: 5%;
+height:20%;
+width: 80%;
+overflow:hidden;
+border-style: solid;
+border-color: #141414;
+}
+
+.thread img{
+height:100%;
+width: 100%;
+border-color: #141414;
+border-style: solid;
+}
+
+.thumb{
+width: 25%;
+float: left;
+}
+
+.reply{
+padding: 30px;
+width: 80%;
+float: left;
+}
+
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
